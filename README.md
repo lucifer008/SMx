@@ -15,18 +15,18 @@ HASH摘要算法
 
 vs2019下，sm2编译用的openssl链接库比较早，需要调整
 
-//修正/lucifer/2023年3月1日
-// 1.sdl检查关闭
-// 2.openssl升级
-//https://blog.csdn.net/Zenor_one/article/details/89791118
-//https://ask.csdn.net/questions/7616392
+>//修正/lucifer/2023年3月1日
+>// 1.sdl检查关闭
+>// 2.openssl升级
+>//https://blog.csdn.net/Zenor_one/article/details/89791118
+>//https://ask.csdn.net/questions/7616392
 
-#pragma comment(lib, "libssl.lib")
-#pragma comment(lib, "libcrypto.lib")
+>#pragma comment(lib, "libssl.lib")
+>#pragma comment(lib, "libcrypto.lib")
 
 ## SM3
-##
-//https://blog.csdn.net/sgfmby1994/article/details/80432205
+
+>//https://blog.csdn.net/sgfmby1994/article/details/80432205
 
 ## SM4
 
